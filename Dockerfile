@@ -13,11 +13,6 @@ ENV PYTHONIOENCODING=utf-8 \
 
 RUN \
   echo "**** install packages ****" && \
-  apk add -U --update --no-cache --virtual=build-dependencies \
-    build-base \
-    g++ \
-    gcc \
-    python3-dev && \
   apk add  -U --update --no-cache \
     python3 \
     py3-pip && \
@@ -32,8 +27,6 @@ RUN \
   pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.16/ \
     feed2toot && \
   echo "**** cleanup ****" && \
-  apk del --purge \
-    build-dependencies && \
   rm -rf \
     /tmp/* \
     $HOME/.cache
