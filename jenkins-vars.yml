@@ -5,7 +5,7 @@ project_name: docker-feed2toot
 external_type: pip_version
 release_type: stable
 release_tag: latest
-ls_branch: master
+ls_branch: main
 repo_vars:
   - EXT_PIP = 'feed2toot'
   - BUILD_VERSION_ARG = 'FEED2TOOT_VERSION'
