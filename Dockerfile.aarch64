@@ -26,9 +26,10 @@ RUN \
     FEED2TOOT_VERSION=$(curl -sL  "https://pypi.python.org/pypi/feed2toot/json" \
     |jq -r '. | .info.version'); \
   fi && \
-  python3 -m pip install --upgrade pip && \
+  pip3 install -U --no-cache-dir \
+    pip \
+    wheel && \
   pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.16/ \
-    wheel \
     feed2toot && \
   echo "**** cleanup ****" && \
   apk del --purge \
