@@ -4,7 +4,7 @@
 project_name: feed2toot
 project_url: "https://gitlab.com/chaica/feed2toot"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png"
-project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network."
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
 
@@ -44,7 +44,7 @@ optional_block_1: false
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  Run `docker run --rm -it -w /config -v /path/to/data:/config -e PUID=1000 -e PGID=1000 lscr.io/linuxserver/feed2toot /usr/bin/register_feed2toot_app` to generate credential files (be sure to set the correct volume path and PUID/PGID values)."
+  Run `docker run --rm -it -w /config -v /path/to/data:/config -e PUID=1000 -e PGID=1000 lscr.io/linuxserver/feed2toot /usr/bin/register_feed2toot_app` to generate credential files (be sure to set the correct volume path and PUID/PGID values).
 
   Edit the feed2toot.ini in /config to configure your instance name and RSS feeds.
 
