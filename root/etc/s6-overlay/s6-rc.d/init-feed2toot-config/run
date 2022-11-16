@@ -11,5 +11,5 @@ if [[ -n ${FEED_LIMIT} ]]; then
 fi
 
 # permissions
-lsiown abc:abc \
+lsiown -R abc:abc \
     /config
