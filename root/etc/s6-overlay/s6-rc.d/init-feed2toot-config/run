@@ -7,7 +7,7 @@ fi
 touch /config/hashtags.txt
 
 if [[ -n ${FEED_LIMIT} ]]; then
-    sed -i "s/-l [[:digit:]]\+/-l ${FEED_LIMIT:-5}/" /etc/crontabs/abc
+    sed -i "s/-l [[:digit:]]\+/-l ${FEED_LIMIT:-5}/" /etc/crontabs/root
 fi
 
 # permissions
