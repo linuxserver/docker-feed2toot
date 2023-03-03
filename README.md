@@ -224,5 +224,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.03.23:** - Allow user customizable cron.
 * **22.12.22:** - Rebase to alpine 3.17.
 * **14.11.22:** - Initial Release.
