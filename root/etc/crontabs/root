@@ -1,1 +1,1 @@
-*/15 * * * * s6-setuidgid abc python3 /usr/bin/feed2toot -l 5 -c /config/feed2toot.ini 2>&1
+*/15 * * * * /app/feed2toot-cron.sh 2>&1

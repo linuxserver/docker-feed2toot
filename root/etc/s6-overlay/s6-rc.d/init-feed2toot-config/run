@@ -1,14 +1,11 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 if [[ ! -f /config/feed2toot.ini ]]; then
     cp /defaults/feed2toot.ini /config/feed2toot.ini
 fi
 
 touch /config/hashtags.txt
-
-if [[ -n ${FEED_LIMIT} ]]; then
-    sed -i "s/-l [[:digit:]]\+/-l ${FEED_LIMIT:-5}/" /etc/crontabs/root
-fi
 
 # permissions
 lsiown -R abc:abc \
