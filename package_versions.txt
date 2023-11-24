@@ -14,7 +14,7 @@ busybox                   1.36.1-r5               apk
 busybox-binsh             1.36.1-r5               apk     
 ca-certificates           20230506-r0             apk     
 ca-certificates-bundle    20230506-r0             apk     
-certifi                   2023.7.22               python  
+certifi                   2023.11.17              python  
 charset-normalizer        3.3.2                   python  
 coreutils                 9.3-r1                  apk     
 curl                      8.4.0-r0                apk     
@@ -22,7 +22,7 @@ decorator                 5.1.1                   python
 feed2toot                 0.17                    python  
 feedparser                6.0.10                  python  
 gdbm                      1.23-r1                 apk     
-idna                      3.4                     python  
+idna                      3.5                     python  
 jq                        1.6-r3                  apk     
 libacl                    2.3.1-r3                apk     
 libattr                   2.5.1-r4                apk     
