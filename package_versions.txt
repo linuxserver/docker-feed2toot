@@ -22,7 +22,7 @@ decorator                 5.1.1                   python
 feed2toot                 0.17                    python  
 feedparser                6.0.10                  python  
 gdbm                      1.23-r1                 apk     
-idna                      3.5                     python  
+idna                      3.6                     python  
 jq                        1.6-r3                  apk     
 libacl                    2.3.1-r3                apk     
 libattr                   2.5.1-r4                apk     
@@ -73,6 +73,6 @@ ssl_client                1.36.1-r5               apk
 tzdata                    2023c-r1                apk     
 urllib3                   2.1.0                   python  
 utmps-libs                0.1.2.1-r1              apk     
-wheel                     0.41.3                  python  
+wheel                     0.42.0                  python  
 xz-libs                   5.4.3-r0                apk     
 zlib                      1.2.13-r1               apk     
