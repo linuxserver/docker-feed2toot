@@ -20,10 +20,10 @@ coreutils                 9.3-r1                  apk
 curl                      8.5.0-r0                apk     
 decorator                 5.1.1                   python  
 feed2toot                 0.17                    python  
-feedparser                6.0.10                  python  
+feedparser                6.0.11                  python  
 gdbm                      1.23-r1                 apk     
 idna                      3.6                     python  
-jq                        1.6-r3                  apk     
+jq                        1.6-r4                  apk     
 libacl                    2.3.1-r3                apk     
 libattr                   2.5.1-r4                apk     
 libbsd                    0.11.7-r1               apk     
