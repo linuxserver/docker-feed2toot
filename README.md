@@ -83,7 +83,7 @@ services:
       - TZ=Etc/UTC
       - FEED_LIMIT=5 #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/feed2toot/config:/config
     restart: unless-stopped
 ```
 
@@ -96,7 +96,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -e FEED_LIMIT=5 `#optional` \
-  -v /path/to/data:/config \
+  -v /path/to/feed2toot/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/feed2toot:latest
 ```
@@ -111,7 +111,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e FEED_LIMIT=5` | Limit number of RSS entries published at each execution. |
-| `-v /config` | Local path for feed2toot config files. |
+| `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
 
@@ -289,6 +289,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.12.23:** - Rebase to Alpine 3.19.
 * **25.05.23:** - Rebase to Alpine 3.18, deprecate armhf.
 * **02.03.23:** - Allow user customizable cron.
 * **22.12.22:** - Rebase to alpine 3.17.
