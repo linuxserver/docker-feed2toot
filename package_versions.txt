@@ -7,7 +7,7 @@ alpine-keys             2.4-r1                 apk
 alpine-release          3.19.0-r0              apk     
 apk-tools               2.14.0-r5              apk     
 bash                    5.2.21-r0              apk     
-beautifulsoup4          4.12.2                 python  
+beautifulsoup4          4.12.3                 python  
 blurhash                1.1.4                  python  
 brotli-libs             1.1.0-r1               apk     
 busybox                 1.36.1-r15             apk     
