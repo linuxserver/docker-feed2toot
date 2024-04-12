@@ -5,7 +5,7 @@ alpine-baselayout       3.4.3-r2               apk
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
 alpine-release          3.19.1-r0              apk                      
-apk-tools               2.14.0-r5              apk                      
+apk-tools               2.14.3-r1              apk                      
 bash                    5.2.21-r0              apk                      
 beautifulsoup4          4.12.3                 python                   
 blurhash                1.1.4                  python                   
@@ -26,7 +26,7 @@ decorator               5.1.1                  python
 feed2toot               0.17                   python                   
 feedparser              6.0.11                 python                   
 gdbm                    1.23-r1                apk                      
-idna                    3.6                    python                   
+idna                    3.7                    python                   
 jq                      1.7.1-r0               apk                      
 libacl                  2.3.1-r4               apk                      
 libattr                 2.5.1-r5               apk                      
