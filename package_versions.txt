@@ -73,7 +73,7 @@ sgmllib3k               1.0.0                  python
 shadow                  4.14.2-r0              apk                      
 six                     1.16.0                 python                   
 skalibs                 2.14.0.1-r0            apk                      
-soupsieve               2.5                    python                   
+soupsieve               2.6                    python                   
 sqlite-libs             3.44.2-r0              apk                      
 ssl_client              1.36.1-r19             apk                      
 tzdata                  2024a-r0               apk                      
