@@ -16,7 +16,7 @@ ca-certificates         20240226-r0            apk
 ca-certificates-bundle  20240226-r0            apk                      
 catatonit               0.2.0-r0               apk                      
 certifi                 2024.12.14             python                   
-charset-normalizer      3.4.0                  python                   
+charset-normalizer      3.4.1                  python                   
 coreutils               9.4-r2                 apk                      
 coreutils-env           9.4-r2                 apk                      
 coreutils-fmt           9.4-r2                 apk                      
@@ -77,7 +77,7 @@ soupsieve               2.6                    python
 sqlite-libs             3.44.2-r0              apk                      
 ssl_client              1.36.1-r19             apk                      
 tzdata                  2024a-r0               apk                      
-urllib3                 2.2.3                  python                   
+urllib3                 2.3.0                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
 wheel                   0.45.1                 python                   
 xz-libs                 5.4.5-r0               apk                      
