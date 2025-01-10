@@ -12,8 +12,8 @@ brotli-libs             1.1.0-r1               apk
 busybox                 1.36.1-r19             apk                      
 busybox-binsh           1.36.1-r19             apk                      
 c-ares                  1.27.0-r0              apk                      
-ca-certificates         20240226-r0            apk                      
-ca-certificates-bundle  20240226-r0            apk                      
+ca-certificates         20241121-r0            apk                      
+ca-certificates-bundle  20241121-r0            apk                      
 catatonit               0.2.0-r0               apk                      
 certifi                 2024.12.14             python                   
 charset-normalizer      3.4.1                  python                   
@@ -76,7 +76,7 @@ skalibs                 2.14.0.1-r0            apk
 soupsieve               2.6                    python                   
 sqlite-libs             3.44.2-r0              apk                      
 ssl_client              1.36.1-r19             apk                      
-tzdata                  2024a-r0               apk                      
+tzdata                  2024b-r0               apk                      
 urllib3                 2.3.0                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
 wheel                   0.45.1                 python                   
