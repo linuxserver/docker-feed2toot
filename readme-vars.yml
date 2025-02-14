@@ -3,7 +3,7 @@
 # project information
 project_name: feed2toot
 project_url: "https://gitlab.com/chaica/feed2toot"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png"
+project_logo: ""
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_categories: "RSS,Social"
