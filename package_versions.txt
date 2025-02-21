@@ -3,7 +3,7 @@ Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)
 alpine-baselayout       3.4.3-r2               apk                      
 alpine-baselayout-data  3.4.3-r2               apk                      
 alpine-keys             2.4-r1                 apk                      
-alpine-release          3.19.6-r0              apk                      
+alpine-release          3.19.7-r0              apk                      
 apk-tools               2.14.4-r0              apk                      
 bash                    5.2.21-r0              apk                      
 beautifulsoup4          4.13.3                 python                   
@@ -21,7 +21,7 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk                      
 coreutils-fmt           9.4-r2                 apk                      
 coreutils-sha512sum     9.4-r2                 apk                      
-curl                    8.12.0-r0              apk                      
+curl                    8.12.1-r0              apk                      
 decorator               5.1.1                  python                   
 feed2toot               0.17                   python                   
 feedparser              6.0.11                 python                   
@@ -34,8 +34,8 @@ libattr                 2.5.1-r5               apk
 libbsd                  0.11.7-r3              apk                      
 libbz2                  1.0.8-r6               apk                      
 libc-utils              0.7.2-r5               apk                      
-libcrypto3              3.1.7-r1               apk                      
-libcurl                 8.12.0-r0              apk                      
+libcrypto3              3.1.8-r0               apk                      
+libcurl                 8.12.1-r0              apk                      
 libexpat                2.6.4-r0               apk                      
 libffi                  3.4.4-r3               apk                      
 libgcc                  13.2.1_git20231014-r0  apk                      
@@ -46,14 +46,14 @@ libncursesw             6.4_p20231125-r0       apk
 libpanelw               6.4_p20231125-r0       apk                      
 libproc2                4.0.4-r0               apk                      
 libpsl                  0.21.5-r0              apk                      
-libssl3                 3.1.7-r1               apk                      
+libssl3                 3.1.8-r0               apk                      
 libstdc++               13.2.1_git20231014-r0  apk                      
 libunistring            1.1-r2                 apk                      
 linux-pam               1.5.3-r7               apk                      
-mastodon-py             1.8.1                  python                   
+mastodon-py             2.0.0                  python                   
 mpdecimal               2.5.1-r2               apk                      
-musl                    1.2.4_git20230717-r4   apk                      
-musl-utils              1.2.4_git20230717-r4   apk                      
+musl                    1.2.4_git20230717-r5   apk                      
+musl-utils              1.2.4_git20230717-r5   apk                      
 ncurses-terminfo-base   6.4_p20231125-r0       apk                      
 netcat-openbsd          1.226-r0               apk                      
 nghttp2-libs            1.58.0-r0              apk                      
@@ -78,7 +78,7 @@ soupsieve               2.6                    python
 sqlite-libs             3.44.2-r0              apk                      
 ssl_client              1.36.1-r19             apk                      
 typing-extensions       4.12.2                 python                   
-tzdata                  2024b-r0               apk                      
+tzdata                  2025a-r0               apk                      
 urllib3                 2.3.0                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
 wheel                   0.45.1                 python                   
