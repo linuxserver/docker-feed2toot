@@ -22,7 +22,7 @@ coreutils-env           9.4-r2                 apk
 coreutils-fmt           9.4-r2                 apk                      
 coreutils-sha512sum     9.4-r2                 apk                      
 curl                    8.12.1-r0              apk                      
-decorator               5.1.1                  python                   
+decorator               5.2.1                  python                   
 feed2toot               0.17                   python                   
 feedparser              6.0.11                 python                   
 findutils               4.9.0-r5               apk                      
