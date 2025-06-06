@@ -85,7 +85,7 @@ skalibs                 2.14.0.1-r0            apk
 soupsieve               2.7                    python                   
 sqlite-libs             3.44.2-r1              apk                      
 ssl_client              1.36.1-r19             apk                      
-typing-extensions       4.13.2                 python                   
+typing-extensions       4.14.0                 python                   
 tzdata                  2025b-r0               apk                      
 urllib3                 2.4.0                  python                   
 utmps-libs              0.1.2.2-r0             apk                      
